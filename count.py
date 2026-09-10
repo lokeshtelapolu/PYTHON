@@ -1,0 +1,16 @@
+#max words count
+a=int(input("no of sentences"))
+count=1
+b=[]
+while a>0:
+    i=str(input("enter the string"))
+    for j in i:
+        if j==" ":
+            count=count+1
+    print(count)
+    b.append(count)
+    print(b)
+    count=count-count+1
+    a=a-1
+d=max(b)
+print(d)
